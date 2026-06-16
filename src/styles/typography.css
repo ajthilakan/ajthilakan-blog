@@ -13,8 +13,31 @@
       @apply text-foreground mb-3;
     }
 
+    h2 {
+      @apply mt-8 text-2xl font-bold;
+    }
+
     h3 {
-      @apply italic;
+      @apply mt-6 text-xl font-semibold italic;
+    }
+
+    /* Article section headers in the posts use `####` (h4). Default prose sizes
+       h4 at body size, so it read as bold paragraph text — bump it to a clear,
+       distinct subsection header. */
+    h4 {
+      @apply mt-8 text-xl font-semibold;
+    }
+
+    /* A whole paragraph that is entirely bold is used as an inline section
+       header (e.g. **The Two Chasms**). Promote it so it reads as a heading
+       rather than just heavier body text. */
+    p:has(> strong:only-child) {
+      @apply mt-6 text-lg font-semibold;
+    }
+
+    /* Make inline bold emphasis genuinely stand out from body copy. */
+    strong {
+      @apply font-bold;
     }
 
     p,
@@ -55,8 +78,24 @@
       }
     }
 
+    /* Image + italic-caption pairs are wrapped into <figure> by the rehype
+       figure plugin (src/utils/rehype/figure.mjs). Keep the caption tucked
+       tight under the image, centered, and smaller than body text. */
+    figure {
+      @apply my-6 flex flex-col items-center;
+    }
+
+    figure img {
+      @apply my-0;
+    }
+
     figcaption {
-      @apply opacity-75;
+      @apply mt-2 text-center text-sm opacity-70;
+    }
+
+    /* Circular profile photo in the About page. */
+    img.profile-pic {
+      @apply my-4 size-44 rounded-full object-cover;
     }
 
     table {

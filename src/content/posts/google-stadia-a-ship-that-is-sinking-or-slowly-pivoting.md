@@ -6,6 +6,7 @@ description: "Google Stadia has faced some big setbacks over the last year, clos
 tags: [gaming, technology]
 featured: false
 draft: false
+heroImage: "/assets/heros/stadia.jpg"
 ---
 
 Google Stadia was announced in [March 2019 at the Game Developers Conference](https://www.mintel.com/blog/technology-market-news/3-ways-googles-stadia-will-revolutionize-gaming) to much fanfare. Over the next year, a series of big moves and announcements showed their commitment to this venture. To attract more users to the platform, they were going all-in on AAA game development, by starting their own [internal game studios](https://www.theverge.com/2019/3/19/18272996/google-stadia-studio-games-entertainment-exclusives-gdc-2019). They added to their list of industry veterans - with Phil Harrison (previously at Sony and Microsoft) at the helm - they recruited Jade Raymond (previously at Ubisoft and EA) to lead their internal development studios. They opened their first studios in Los Angeles and in Montreal and acquired Typhoon studios, which were just about to launch their debut game.
@@ -44,7 +45,7 @@ With Google's investments in cloud infrastructure, they were cognizant of the po
 To succeed as a game streaming platform, they would need to create a strong flywheel that could create strong feedback loops and accelerate their growth. A flywheel for a game streaming platform could look something like this:
 
 ![](/assets/2021/07/image-1.png)
-**A Flywheel that Microsoft, Amazon and Google will be trying to achieve with their Game Streaming Platforms**
+*A Flywheel that Microsoft, Amazon and Google will be trying to achieve with their Game Streaming Platforms*
 
 With these streaming platforms, they are trying to reduce the dependency on hardware from the equation, allowing users to play on any device e.g. Android, iOS, PC, Mac. The opportunity here is huge because it opens up a massive distribution channel that wasn't available before ([international launches are easier!](https://allstadia.com/list-of-google-stadia-available-countries)) and offers another subscription-based monetization play (similar to Netflix).
 

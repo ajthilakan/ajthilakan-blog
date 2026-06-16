@@ -35,7 +35,7 @@ const homePath = getRelativeLocaleUrl(locale, "");
   >
     <section id="hero" class="border-border border-b pt-8 pb-6">
       <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        Mingalaba
+        Hey, I'm Ajith 👋
       </h1>
       <a
         target="_blank"
@@ -52,20 +52,30 @@ const homePath = getRelativeLocaleUrl(locale, "");
         <span class="sr-only">RSS Feed</span>
       </a>
 
-      <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+      <p class="text-lg font-medium italic sm:text-xl">
+        Reflections on Technology, Product Management &amp; Strategy
+      </p>
+      <p class="mt-4">
+        This blog is an experiment to get me writing more — and to shift the
+        ratio of how much meaningful content I produce versus how much I
+        consume. I write about anything under the umbrella of technology,
+        product management &amp; strategy, with the occasional tangent into
+        gaming, the creative arts, or life itself.
       </p>
       <p class="mt-2">
-        Read the blog posts or check
+        Read more
         <LinkButton
           class="hover:text-accent underline decoration-dashed underline-offset-4"
-          href="https://github.com/satnaing/astro-paper#readme"
+          href={getRelativeLocaleUrl(locale, "about")}
         >
-          README
-        </LinkButton> for more info.
+          about me &amp; this blog
+        </LinkButton>, or browse the
+        <LinkButton
+          class="hover:text-accent underline decoration-dashed underline-offset-4"
+          href={getRelativeLocaleUrl(locale, "posts")}
+        >
+          latest posts
+        </LinkButton> below.
       </p>
       {
         socials.length > 0 && (

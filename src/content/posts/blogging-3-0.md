@@ -6,6 +6,7 @@ description: "Blogging and digital journalism is changing. I touch on the growin
 tags: [media, technology]
 featured: false
 draft: false
+heroImage: "/assets/heros/blogging.png"
 ---
 
 Blogging is not a particularly new form of media, [originating in the 90s](https://blog.hubspot.com/marketing/history-of-blogging) and going through transformations as the world wide web evolved. Blogging provided a means for people to share their opinions, stories, and expertise with the broader world. It evolved to support businesses with their lead generation through various methods (such as their own blogs, influencers, and traditional ad space), but it never offered individual writers a way to capture much of the value they created by putting in the time to create and share their stories with the broader world.

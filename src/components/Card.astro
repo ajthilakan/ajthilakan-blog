@@ -10,12 +10,26 @@ type Props = {
 
 const { variant: Heading = "h2", id, data, filePath } = Astro.props;
 
-const { title, description, ...props } = data;
+const { title, description, heroImage, ...props } = data;
+const postUrl = getPostUrl(id, filePath, Astro.currentLocale);
+const heroSrc = heroImage;
 ---
 
 <li class="my-6">
+  {
+    heroSrc && (
+      <a href={postUrl} tabindex="-1" aria-hidden="true" class="mb-2 block">
+        <img
+          src={heroSrc}
+          alt=""
+          loading="lazy"
+          class="border-border max-h-52 w-full rounded-md border object-cover"
+        />
+      </a>
+    )
+  }
   <a
-    href={getPostUrl(id, filePath, Astro.currentLocale)}
+    href={postUrl}
     class:list={[
       "text-accent inline-block text-lg font-medium",
       "decoration-dashed underline-offset-4 hover:underline",

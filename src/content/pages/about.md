@@ -15,6 +15,8 @@ The cadence will vary.
 
 ## About Me
 
+<img src="/assets/2025/06/cropped-profile-square.jpg" alt="Ajith Thilakan" class="profile-pic" />
+
 I live and work in Toronto, where I completed my higher studies and started my career. I grew up in the UAE prior to that.
 
 I am currently managing product at Docker, learning how we can empower developers to build and bring their ideas to life. Previously Product @ Capital One, and an early member/First Product manager @ OneLocal (YC S17).

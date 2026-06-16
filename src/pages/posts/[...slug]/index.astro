@@ -69,6 +69,7 @@ const {
   timezone,
   tags,
   hideEditPost,
+  heroImage,
 } = post.data;
 
 const { Content } = await render(post);
@@ -92,6 +93,8 @@ if (!ogImageUrl && config.features.dynamicOgImage) {
 const ogImage = ogImageUrl
   ? new URL(ogImageUrl, Astro.url.origin).href
   : undefined;
+
+const heroSrc = heroImage;
 ---
 
 <PostLayout
@@ -131,6 +134,16 @@ const ogImage = ogImageUrl
       </span>
       <EditPost {hideEditPost} {post} class="max-sm:hidden" />
     </div>
+
+    {
+      heroSrc && (
+        <img
+          src={heroSrc}
+          alt={`Hero image for ${title}`}
+          class="border-border mt-6 max-h-[28rem] w-full rounded-md border object-cover"
+        />
+      )
+    }
 
     <article
       id="article"

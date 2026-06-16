@@ -20,7 +20,7 @@ export default defineAstroPaperConfig({
   features: {
     lightAndDarkMode: true,
     dynamicOgImage: true,
-    showArchives: true,
+    showArchives: false,
     showBackButton: true,
     editPost: {
       enabled: false,
@@ -32,9 +32,11 @@ export default defineAstroPaperConfig({
     { name: "linkedin", url: "https://www.linkedin.com/in/ajthilakan/" },
   ],
   shareLinks: [
-    { name: "whatsapp", url: "https://wa.me/?text=" },
-    { name: "x", url: "https://x.com/intent/post?url=" },
     { name: "linkedin", url: "https://www.linkedin.com/sharing/share-offsite/?url=" },
+    { name: "x", url: "https://x.com/intent/post?url=" },
+    { name: "bluesky", url: "https://bsky.app/intent/compose?text=" },
+    { name: "reddit", url: "https://www.reddit.com/submit?url=" },
+    { name: "whatsapp", url: "https://wa.me/?text=" },
     { name: "mail", url: "mailto:?subject=See%20this%20post&body=" },
   ],
 });

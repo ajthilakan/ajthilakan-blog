@@ -6,6 +6,7 @@ description: "The product management career path can be quite nebulous and is co
 tags: [product-management]
 featured: true
 draft: false
+heroImage: "/assets/2021/07/career-3386334_1920.jpg"
 ---
 
 When I graduated from university, I joined a startup and realized very quickly that I wanted to be in the world of technology. I didn't have any engineering or design skills and was not confident in starting my own startup. Soon enough I came across the role of the product manager within the tech team and realized this is the path that I could follow. But beyond that, I did not know much about what it meant to pursue a career in product management.
