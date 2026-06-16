@@ -34,27 +34,9 @@ const homePath = getRelativeLocaleUrl(locale, "");
     class="app-layout"
   >
     <section id="hero" class="border-border border-b pt-8 pb-6">
-      <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        Hey, I'm Ajith 👋
-      </h1>
-      <a
-        target="_blank"
-        href={`${import.meta.env.BASE_URL.replace(/\/?$/, "/")}rss.xml`}
-        class="inline-block"
-        aria-label="RSS Feed"
-        title="RSS Feed"
-      >
-        <IconRss
-          width={20}
-          height={20}
-          class="stroke-accent scale-125 stroke-3 rtl:-rotate-90"
-        />
-        <span class="sr-only">RSS Feed</span>
-      </a>
-
-      <p class="text-lg font-medium italic sm:text-xl">
+      <h1 class="my-4 text-3xl font-bold sm:my-6 sm:text-4xl">
         Reflections on Technology, Product Management &amp; Strategy
-      </p>
+      </h1>
       <p class="mt-4">
         This blog is an experiment to get me writing more — and to shift the
         ratio of how much meaningful content I produce versus how much I
@@ -77,16 +59,19 @@ const homePath = getRelativeLocaleUrl(locale, "");
           latest posts
         </LinkButton> below.
       </p>
-      {
-        socials.length > 0 && (
-          <div class="mt-4 flex max-sm:flex-col sm:items-center">
-            <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">
-              {t.home.socialLinks}:
-            </div>
-            <Socials />
-          </div>
-        )
-      }
+      <div class="mt-6 flex items-center gap-1">
+        {socials.length > 0 && <Socials />}
+        <a
+          target="_blank"
+          href={`${import.meta.env.BASE_URL.replace(/\/?$/, "/")}rss.xml`}
+          class="p-2 hover:rotate-6 sm:p-1"
+          aria-label="RSS Feed"
+          title="RSS Feed"
+        >
+          <IconRss class="stroke-accent inline-block size-6 scale-125 stroke-2 opacity-90 sm:scale-110 rtl:-rotate-90" />
+          <span class="sr-only">RSS Feed</span>
+        </a>
+      </div>
     </section>
 
     {
