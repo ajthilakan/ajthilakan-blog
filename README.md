@@ -31,4 +31,5 @@ deploys. `main` is the live site.
 ---
 
 Theme: [AstroPaper](https://github.com/satnaing/astro-paper) by Sat Naing, used under the MIT license.
+
 Blog content © Ajith Thilakan.
