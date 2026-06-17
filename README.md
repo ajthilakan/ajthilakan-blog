@@ -4,8 +4,7 @@ Source for my personal blog — **[ajthilakan.com](https://ajthilakan.com)** —
 technology, product management & strategy.
 
 This repo is public on purpose. I'm trying to **build (and write) more in the open**, and it
-doubles as a sandbox for learning an agentic publishing workflow: posts are drafted on a branch,
-opened as a pull request, reviewed, and deployed automatically on merge.
+doubles as a sandbox for learning agentic workflows.
 
 ## Built with
 
@@ -22,7 +21,7 @@ npm run build    # production build into dist/
 ```
 
 Posts live in `src/content/posts/` as markdown with frontmatter. Drafts (`draft: true`) are hidden
-from the published site. The `about` page lives in `src/content/pages/`.
+from the published site. 
 
 ## Workflow
 
