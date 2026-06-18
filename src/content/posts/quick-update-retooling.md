@@ -1,12 +1,11 @@
 ---
-title: "Quick Update – What I've Been Building"
+title: "Quick Update – What I've Been Building as I Retool"
 pubDatetime: 2026-06-18T17:05:34Z
 description: "A quick update on what I've been building recently — setting up a personal AI agent harness and kicking off a Vibe-30 builder challenge."
 tags: [personal-os, vibe-30, retooling, build-in-public]
 heroImage: "/assets/heros/quick-update-hero.png"
 draft: false
 ---
-# Quick Update – Retooling & Building
 
 I've been quiet on the blog for a while, and it felt appropriate to share a quick update on what I've been up to recently, and why that might change.
 
