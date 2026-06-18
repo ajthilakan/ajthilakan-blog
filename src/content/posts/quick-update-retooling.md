@@ -1,14 +1,14 @@
 ---
 title: "Quick Update – What I've Been Building"
 pubDatetime: 2026-06-18T17:05:34Z
-description: "A quick update on what I've been building during my sabbatical — setting up a personal AI agent harness and kicking off a Vibe-30 builder challenge."
+description: "A quick update on what I've been building recently — setting up a personal AI agent harness and kicking off a Vibe-30 builder challenge."
 tags: [personal-os, vibe-30, retooling, build-in-public]
 heroImage: "/assets/heros/quick-update-hero.png"
 draft: false
 ---
 # Quick Update – Retooling & Building
 
-I've been quiet on the blog for a while, and it felt appropriate to share a quick update on what I've been up to, and why that might change.
+I've been quiet on the blog for a while, and it felt appropriate to share a quick update on what I've been up to recently, and why that might change.
 
 The big theme: I'm retooling — deliberately getting more comfortable building and shipping things myself, not just thinking about them. I'm starting with my own use cases — and writing more as I build in public is a side-effect I'm actively courting.
 
