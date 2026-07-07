@@ -10,7 +10,7 @@ heroImage: /assets/blog-migration-vibe30/hero.png
 ---
 
 
-I buried the lede in my [previous update](https://ajthilakan.com/posts/quick-update-retooling/) — as part of my builder challenge, one of the first things I completed was migrating my WordPress blog to a Cloudflare-hosted static site. If you want the quick version: it went well, it took longer than expected (the actual site setup was fast; the DNS cutover and git workflow setup were where the time went), and yes, I'd probably do it again — though I wouldn't recommend it for everyone.
+I buried the lede in my [previous update](https://ajthilakan.com/posts/quick-update-retooling/) — as part of my builder challenge, one of the first things I completed was migrating my WordPress blog to a Cloudflare-hosted static site. If you want the quick version: it went well, but took longer than expected — The actual site migration was fast thanks to Claude Code; however the initial git workflow setup and DNS cutover were where most of my time went. I’d probably do it again as it's a great learning exercise — though I wouldn’t recommend it for everyone.
 
 Here's how it happened, what I learned, and why the stack actually mattered for my agentic exploration.
 
