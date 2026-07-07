@@ -38,7 +38,7 @@ I used Claude Code to help me explore and make the key decisions upfront — opt
 
 Astro (static site generator) → GitHub (content lives as markdown files; drafts and edits come in as PRs) → Cloudflare Pages (free hosting) → my custom domain at cutover.
 
-The site is static, which means every post is just a markdown file in a git repo. That turns out to be a good native medium for "an agent editing my blog" (more on that below) — every change is a diff, reviewable and revertible, and drafts are just branches.
+The site is static, which means every post is just a markdown file in a git repo. That turns out to be a good native medium for an agent editing my blog — every change is a diff, reviewable and revertible, and drafts are just branches.
 
 ### Migration
 
@@ -116,7 +116,3 @@ If your main goal is just to write more, I'd probably point you toward WordPress
 For me, the main thing I want to tighten next is the writing loop itself — keeping enough of my own thinking in between the agent steps to avoid the slop trap. On the tooling side, the image generation defaults still need work. And the WYSIWYG editor I left behind at WordPress is a genuine gap — integrating a lightweight web editor for this setup is sitting on my vibe coding backlog.
 
 If any of this is interesting to you — I'll aim to share more as I go. And if you're running your own vibe-coding challenges, I'd genuinely be curious to hear what you're building.
-
----
-
-*Related: [Quick Update – What I've Been Building as I Retool](https://ajthilakan.com/posts/quick-update-retooling/)*
