@@ -31,8 +31,12 @@ Inspired by my peers building in public (notably Nuno's [vibe30 challenge](https
 
 My goal is simple: ship things regularly within a timebox, focusing on learning, keep the bar low, and disposability is fine. I might stretch it past 30 days — we'll see what sticks.
 
-I started with this blog migration — moving from WordPress to a static site on Cloudflare Pages — specifically because it would also allow me to learn some SDLC basics hands-on: git workflows, CI/CD, deployment pipelines. It also lets me try out a more agentic content engine as part of my learning goals, where WordPress felt pretty limited for what I wanted to do. You're reading the early results of this.
+I started with [this blog migration](/posts/blog-migration-vibe30) — moving from WordPress to a static site on Cloudflare Pages — specifically because it would also allow me to learn some SDLC basics hands-on: git workflows, CI/CD, deployment pipelines. It also lets me try out a more agentic content engine as part of my learning goals, where WordPress felt pretty limited for what I wanted to do. You're reading the early results of this.
 
 ---
 
 These are meaty threads to unpack and I aim to write more on them soon - Stay tuned!
+
+---
+
+*Update: linked to latest [post on my blog migration](/posts/blog-migration-vibe30).*
