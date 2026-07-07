@@ -36,7 +36,3 @@ I started with [this blog migration](/posts/blog-migration-vibe30) — moving fr
 ---
 
 These are meaty threads to unpack and I aim to write more on them soon - Stay tuned!
-
----
-
-*Update: linked to latest [post on my blog migration](/posts/blog-migration-vibe30).*
