@@ -5,6 +5,7 @@ description: "How a WordPress dead-end turned into my next Vibe coding project: 
 tags: ["vibe30", "personal-os", "blog"]
 draft: false
 slug: blog-migration-vibe30
+ogImage: /assets/blog-migration-vibe30/hero.png
 ---
 
 I buried the lede in my [previous update](https://ajthilakan.com/posts/quick-update-retooling/) — as part of my builder challenge, one of the first things I completed was migrating my WordPress blog to a Cloudflare-hosted static site. If you want the quick version: it went well, it took longer than expected (the actual site setup was fast; the DNS cutover and git workflow setup were where the time went), and yes, I'd probably do it again — though I wouldn't recommend it for everyone.
