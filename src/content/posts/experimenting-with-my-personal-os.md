@@ -86,13 +86,21 @@ Some people I follow switched to Hermes or similar tools paired with OpenAI Code
 
 Most of my actual hours didn't go into clever assistant behavior.
 
-**Local hardware → VPS**: Already covered above. Tried the reversible option first.
+### Local hardware → VPS
 
-**Harness journey — DIY → Hermes → billing surprise → NanoClaw**: I started with a vague plan to build my own messaging bridge. Then discovered existing harnesses had already solved this. Tried Hermes first because the UX was simpler to get started. Hit the billing wall and switched to NanoClaw. 
+Already covered above. Tried the reversible option first.
 
-**Hardening rabbit holes**: I lost real time to security exploration — firewall rules, secrets management, credential paths. Some of it was genuinely useful. A lot of it was me chasing threads past my own knowledge ceiling with Claude's help, which is a particular kind of trap. AI can help you reach further than you could on your own, but that same help makes it easy to follow a thread straight into the weeds without knowing whether it matters for your actual setup. Learning to ask "what can I safely skip for now?" was its own skill, and harder than the technical work.
+### Harness journey — DIY → Hermes → billing surprise → NanoClaw
 
-**Skills drift between machines**: As I started using the system more across different workflows, I noticed skills and sub-agent configurations drifting between my local machine and the NanoClaw instance on the VPS. Adding a skill on one doesn't automatically update the other — it's very manual right now. I don't have a clean solution yet. I probably need a git-based approach (or perhaps vibecode my own syncing tool?), but I haven't gotten there yet.
+I started with a vague plan to build my own messaging bridge. Then discovered existing harnesses had already solved this. Tried Hermes first because the UX was simpler to get started. Hit the billing wall and switched to NanoClaw. 
+
+### Hardening rabbit holes
+
+I lost real time to security exploration — firewall rules, secrets management, credential paths. Some of it was genuinely useful. A lot of it was me chasing threads past my own knowledge ceiling with Claude's help, which is a particular kind of trap. AI can help you reach further than you could on your own, but that same help makes it easy to follow a thread straight into the weeds without knowing whether it matters for your actual setup. Learning to ask "what can I safely skip for now?" was its own skill, and harder than the technical work.
+
+### Skills drift between machines
+
+As I started using the system more across different workflows, I noticed skills and sub-agent configurations drifting between my local machine and the NanoClaw instance on the VPS. Adding a skill on one doesn't automatically update the other — it's very manual right now. I don't have a clean solution yet. I probably need a git-based approach (or perhaps vibecode my own syncing tool?), but I haven't gotten there yet.
 
 ## Where I started to use it
 
