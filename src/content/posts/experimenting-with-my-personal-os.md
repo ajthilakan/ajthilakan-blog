@@ -128,7 +128,7 @@ The bridge is on, the agent is live, and I can text my assistant from my phone a
 
 With that said I want to be clear about what this exercise is: exploratory and deliberately disposable. Committing to this stack long-term would be premature, especially as the landscape is moving fast. While I am on NanoClaw now, I might consider switching harnesses if evolving billing policies make it more economically viable to use Hermes (which supports multiple model providers out of the box).
 
-On the commercial side — we see more developments with NanoClaw's parent launching [nanoco.ai](https://nanoco.ai/) targeting enterprise use cases and Hermes/Nous Research with their own commercial offering at [portal.nousresearch.com](portal.nousresearch.com). The ecosystem is consolidating (e.g. OpenAI acquiring OpenClaw), but new entrants keep appearing. I have no idea what this looks like by end of year.
+On the commercial side — we see more developments with NanoClaw's parent launching [nanoco.ai](https://nanoco.ai/) targeting enterprise use cases and Hermes/Nous Research with their own commercial offering at [portal.nousresearch.com](https://portal.nousresearch.com/). The ecosystem is consolidating (e.g. OpenAI acquiring OpenClaw), but new entrants keep appearing. I have no idea what this looks like by end of year.
 
 For those watching — I wouldn't feel discouraged about falling behind, as these tools are clearly still early in their maturity. If you look at the Diffusion of Innovations curve, these tools would still fall in the innovators/early adopters territory, as they are still challenging for the majority to setup, the UX is evolving and still presents security risks that most might not be comfortable with yet.
 
