@@ -70,6 +70,10 @@
       @apply border-border mx-auto border;
     }
 
+    img[src$=".svg"] {
+      @apply border-none;
+    }
+
     img[role="button"] {
       @apply cursor-zoom-in;
 

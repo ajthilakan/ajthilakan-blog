@@ -21,7 +21,7 @@ Two threads are driving most of my time here.
 
 I've been experimenting with agent frameworks to build out something going by many names in the industry — a [Personal OS](https://youmind.com/landing/x-viral-articles/hermes-agent-personal-ai-os), a [second brain](https://x.com/i/status/2053366862248026480), a [chief of staff](https://www.remoteopenclaw.com/blog/ai-chief-of-staff-what-it-does) — but concretely, a harness for "always running" AI agents with messaging bridges and tooling integrations that can handle recurring tasks, surface the right context at the right time, and generally act as an extension of how I work.
 
-I recently got NanoClaw running on a DigitalOcean droplet, started migrating my Evernote knowledge base to Obsidian for better agentic integrations, and have been testing different frameworks and approaches to figure out what actually holds up day-to-day versus what's just fun to tinker with. More on this coming — there's a lot to share on what worked (and what didn't) for me. 
+I recently got NanoClaw running on a DigitalOcean droplet, started migrating my Evernote knowledge base to Obsidian for better agentic integrations, and have been testing different frameworks and approaches to figure out what actually holds up day-to-day versus what's just fun to tinker with. There's a lot to share on what worked (and what didn't) for me — More on that [here](/posts/experimenting-with-my-personal-os)
 
 ---
 
