@@ -101,12 +101,12 @@ It's been running for some time now, where I set it up with some skills and agen
 A **daily planning workflow** — skills to update my Kanban board, set up daily and weekly planners. This is the most consistent use, the one that's slowly starting to become a habit.
 
 ![Screenshot of the daily planning workflow in action](/assets/experimenting-with-my-personal-os/daily-planning-screenshot.png)
-*(Caption: this feels a bit overkill right now, but why not 🤷)*
+*This feels a bit overkill right now, but why not 🤷*
 
 A **content pipeline** — draft, review, publish workflow for this blog. The post you're reading went through it: drafted by an agent, reviewed and validated by separate reviewer agents, published to a staging branch. The process is still a [work in progress](https://ajthilakan.com/posts/blog-migration-vibe30/#what-this-stack-enabled-for-me-experimenting-with-agentic-workflows), but its been interesting to tinker with.
 
 ![Screenshot of the content pipeline with multiple review agents](/assets/experimenting-with-my-personal-os/content-pipeline-screenshot.png)
-*(Caption: Having one agent fact check, and another apply my desired corrections - was helpful for more detailed posts like this where I cared about the accuracy)*
+*Having one agent fact check, and another apply my desired corrections - was helpful for more detailed posts like this where I cared about the accuracy*
 
 I can share more on these or other specific pipelines in future posts. Right now I wanted to get the foundational setup documented before I go deeper on individual workflows.
 
