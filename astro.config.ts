@@ -61,10 +61,10 @@ export default defineConfig({
   },
   fonts: [
     {
-      name: "Google Sans Code",
-      cssVariable: "--font-google-sans-code",
+      name: "Figtree",
+      cssVariable: "--font-figtree",
       provider: fontProviders.google(),
-      fallbacks: ["monospace"],
+      fallbacks: ["sans-serif"],
       weights: [300, 400, 500, 600, 700],
       styles: ["normal", "italic"],
       formats: ["woff", "ttf"],

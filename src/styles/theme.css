@@ -7,28 +7,28 @@
   --color-muted: var(--muted);
   --color-muted-foreground: var(--muted-foreground);
   --color-border: var(--border);
-  --font-app: var(--font-google-sans-code);
+  --font-app: var(--font-figtree);
 }
 
-/* Light theme values */
+/* Light theme values — warm cream paper + espresso ink */
 :root,
 [data-theme="light"] {
-  --background: #fdfdfd;
-  --foreground: #282728;
-  --accent: #006cac;
+  --background: #f8f4ec;
+  --foreground: #2c2622;
+  --accent: #b1541e;
   --accent-foreground: #ffffff;
-  --muted: #e6e6e6;
-  --muted-foreground: #6b7280;
-  --border: #ece9e9;
+  --muted: #eae2d5;
+  --muted-foreground: #6d6357;
+  --border: #e4dccd;
 }
 
-/* Dark theme values */
+/* Dark theme values — warm charcoal + parchment + candlelight amber */
 [data-theme="dark"] {
-  --background: #212737;
-  --foreground: #eaedf3;
-  --accent: #ff6b01;
-  --accent-foreground: #ffffff;
-  --muted: #343f60;
-  --muted-foreground: #afb9ca;
-  --border: #ab4b08;
+  --background: #201c19;
+  --foreground: #ece4d8;
+  --accent: #e8925a;
+  --accent-foreground: #201c19;
+  --muted: #362f28;
+  --muted-foreground: #b4a794;
+  --border: #463c31;
 }
