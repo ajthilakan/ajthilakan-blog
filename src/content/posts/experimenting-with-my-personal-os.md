@@ -1,5 +1,5 @@
 ---
-title: "Experimenting with my 'Personal OS' (Running NanoClaw on a VPS)"
+title: "Experimenting with my 'Personal OS' - Running NanoClaw on a VPS"
 pubDatetime: 2026-07-09T19:05:42Z
 description: "A deep dive from setting up a personal AI agent harness during my experimental retooling phase — covering the agent ecosystem, VPS setup, Obsidian vault integration, a billing surprise, and other rabbit holes that took my time."
 tags: [personal-os, nanoclaw, build-in-public]
@@ -7,7 +7,6 @@ draft: false
 ogImage: ../../assets/experimenting-with-my-personal-os/hero.png
 heroImage: /assets/experimenting-with-my-personal-os/hero.png
 ---
-# Experimenting with my 'Personal OS' - Running NanoClaw on a VPS
 
 I recently posted a [quick update](https://ajthilakan.com/posts/quick-update-retooling/#thread-1--my-chief-of-staff) about what I'd been experimenting with recently — one of which included agent frameworks that could act as an extension of how I work, with "on-demand" agents, recurring task pipelines and persistent memory.
 
