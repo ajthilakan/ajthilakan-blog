@@ -29,8 +29,8 @@ That's ground a good PM already knows well. You spend your career translating am
 
 So if you have good product taste and domain knowledge, you're actually better positioned than you think, and there's research backing it up. An Anthropic [research report](https://www.anthropic.com/research/claude-code-expertise) found that in vibe coding sessions, success was determined more by how well someone understands the problem they're solving than by whether they have a coding background. Domain experts succeed at nearly the same rate as software engineers. The quote that stuck with me:
 
-> "These findings give us an early read on possible transitions in the labor market. In our data, success is determined by how well a person understands the problem they are trying to solve, not whether they're trained in coding.
-> ...The greater domain expertise a person brings to a session... domain experts succeed at nearly the same rate as software engineers. "
+> These findings give us an early read on possible transitions in the labor market. In our data, success is determined by how well a person understands the problem they are trying to solve, not whether they're trained in coding.
+> ...The greater domain expertise a person brings to a session... domain experts succeed at nearly the same rate as software engineers. 
 > — [Anthropic Research Report - Agentic coding and persistent returns to expertise](https://www.anthropic.com/research/claude-code-expertise)
 
 Jake also made a second point that I felt was particularly important for my product peer group: what separates PMs in a crowded market isn't just the resume anymore. Your portfolio matters more than any individual artifact, and having projects to show on your GitHub can go a long way. 
