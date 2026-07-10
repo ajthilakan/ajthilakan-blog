@@ -21,7 +21,7 @@ Things are moving fast enough that it's easy to feel like you're always one step
 
 ## ...And what gave me the confidence to dive in
 
-A conversation with [Jake Levine](https://x.com/awakenjake) *(whose [recent shift](https://specstory.com/blog/a-ceos-journey-back-to-code) from leadership to hands-on building was also particularly inspiring here)* reframed how I was thinking about this. 
+A conversation with [Jake Levirne](https://x.com/awakenjake) *(whose [recent shift](https://specstory.com/blog/a-ceos-journey-back-to-code) from leadership to hands-on building was also particularly inspiring here)* reframed how I was thinking about this. 
 
 His take on imposter syndrome for non-technical builders was more than just encouragement — it was a structural point. The bottleneck has shifted from *writing code*. That was the hard part and where coding expertise paid off. Now, with capable coding agents in the loop, it's increasingly *knowing what to build and verifying that it does what you think*. Execution is being commoditized and now framing, judgment, and verification are where the real leverage (and cognitive bottlenecks) is shifting to.
 
