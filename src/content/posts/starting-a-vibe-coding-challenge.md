@@ -15,17 +15,17 @@ I first mentioned this briefly in my [recent retooling update](https://ajthilaka
 
 ## My initial feelings going in...
 
-As someone with limited technical depth, the imposter syndrome was substantial during my early days at Docker. However I was able to overcome some of that over time, and leveraging AI agents as learning and execution partners proved to be a big enabler. I used this to help me get deeper into our developer focused product when needed, but more importantly across my product workflows (research, analysis, documentation, prototyping). That said, I also felt I was only just keeping up with the latest advancements, and only just scratching the surface of what I could do as an aspiring builder.
+As someone with limited technical depth, the imposter syndrome was substantial during my early days at Docker. However I was able to overcome some of that over time, and applying AI agents as learning and execution partners proved to be a big enabler. I used this to help me get deeper into our developer focused product when needed, but more importantly across my product workflows (research, analysis, documentation, prototyping). That said, I also felt I was only just keeping up with the latest advancements, and only just scratching the surface of what I could do as an aspiring builder.
 
-Things are moving fast enough that it's easy to feel like you're always one step behind. And vibe coding specifically has a real failure mode: AI-generated code can look perfectly reasonable and be quietly wrong. You don't always know where to look for the rot. Diving into this as a PM — without a deep technical background — can feel a bit like jumping into traffic.
+Things are moving fast enough that it's easy to feel like you're always one step behind. And vibe coding specifically has a real failure mode: AI-generated code can look perfectly reasonable and be quietly wrong. You don't always know where to look for the rot. Diving into this without a deep technical background can feel a bit like jumping into traffic.
 
 ## ...And what gave me the confidence to dive in
 
 A conversation with [Jake Levine](https://x.com/awakenjake) *(whose [recent shift](https://specstory.com/blog/a-ceos-journey-back-to-code) from leadership to hands-on building was also particularly inspiring here)* reframed how I was thinking about this. 
 
-His take on imposter syndrome for non-technical builders was more than just encouragement — it was a structural point. The bottleneck has shifted. It used to be *writing code*. That was the hard part; that was where expertise paid off. Now, with capable coding agents in the loop, it's increasingly *knowing what to build and verifying that it does what you think*. Execution is being commoditized. Framing, judgment, and verification are where the real leverage sits.
+His take on imposter syndrome for non-technical builders was more than just encouragement — it was a structural point. The bottleneck has shifted from *writing code*. That was the hard part and where coding expertise paid off. Now, with capable coding agents in the loop, it's increasingly *knowing what to build and verifying that it does what you think*. Execution is being commoditized and now framing, judgment, and verification are where the real leverage (and cognitive bottlenecks) is shifting to.
 
-That's ground a good PM already knows well. You spend your career translating ambiguous user problems into specific, testable solutions and holding them accountable to outcomes. The skill transfers.
+That's ground a good PM already knows well. You spend your career translating ambiguous user problems into specific, testable solutions and holding them accountable to outcomes.
 
 So if you have good product taste and domain knowledge, you're actually better positioned than you think, and there's research backing it up. An Anthropic [research report](https://www.anthropic.com/research/claude-code-expertise) found that in vibe coding sessions, success was determined more by how well someone understands the problem they're solving than by whether they have a coding background. Domain experts succeed at nearly the same rate as software engineers. The quote that stuck with me:
 
@@ -37,11 +37,11 @@ Jake also made a second point that I felt was particularly important for my prod
 
 ## How I'm going into this
 
-I want to cross the threshold from *aspiring* to *semi-competent builder*. Not just empowering builders — actually being one of them, at least at a level that's genuinely useful. And what does that mean? It doesn't mean writing production code myself. It means being able to take an idea from concept to something working and deployed, independently. To verify that what got built is what I asked for. To iterate without needing a handoff every time something needs to change. That's the threshold I'm trying to cross.
+I want to cross the threshold from *aspiring* to *semi-competent builder*. Not just empowering builders — actually being one of them, at least at a level that's genuinely useful. And what does that mean? It doesn't mean writing production code myself. It means being able to take an idea from concept to something working and deployed, independently. To verify that what got built is what I asked for. To iterate without needing a handoff every time something needs to change. 
 
 The products I ship during this challenge might be disposable. Short-lived proof-of-concepts, or tools I build to solve one problem and retire are completely fine. 
 
-There is a real cost to this that's worth flagging — tooling, subscriptions, time. Not everyone is positioned to take this bet. But for any PM who's been considering a bootcamp or post-grad course to get more technical: I'd argue that you could go further budgeting for a Claude or Codex subscription and shipping disposable things yourself. It won't teach you everything — good strategy, taste, and writing are different muscles — but technical fluency in a world of coding agents is increasingly learnable by doing.
+There is a real cost to this that's worth flagging — tooling, subscriptions, time. Not everyone is positioned to take this bet. But for any PM who's been considering a bootcamp or post-grad course to get more technical: I'd argue that you could go further budgeting for a Claude or Codex subscription and shipping a few things yourself. It won't teach you everything — good strategy, taste, and writing are different muscles — but technical fluency in a world of coding agents is increasingly learnable by doing.
 
 ### And overcoming the "daunting" technical challenges 
 
@@ -52,7 +52,7 @@ The challenge here isn't just prompting, which is learnable in an afternoon. It'
 
 For both of these - I felt that I (and non-technical builders) could tackle it using Claude Code (or your choice of model & agent harness) as a planning and execution partner, while also utilizing the variety of engineering skill plugins that are out there. 
 
-Your agent partner can help you plan and setup your SDLC stack, and you can then utilize the appropriate engineering skills to take you through the actual development cycle. Claude Code comes with many out of the box, but I was very intrigued by the [Compound Engineering](https://github.com/everyinc/compound-engineering-plugin) plugin (~23K stars on github), and its in-depth skills for the full development workflow end to end: `ce-brainstorm` > `ce-plan` > `ce-work` > `ce-review`. I was also intrigued to try its `lfg` command that runs the full pipeline in one long-running flow. 
+Your agent partner can help you plan and setup your SDLC stack, and you can then run the appropriate engineering skills to take you through the actual development cycle. Claude Code comes with many out of the box, but I was very intrigued by the [Compound Engineering](https://github.com/everyinc/compound-engineering-plugin) plugin (~23K stars on github), and its in-depth skills for the full development workflow end to end: `ce-brainstorm` > `ce-plan` > `ce-work` > `ce-review`. I was also intrigued to try its `lfg` command that runs the full pipeline in one long-running flow. 
 
 This might sound like a lot of overhead for "disposable" builds. But I think the setup overhead is actually part of what I'm here to learn *(otherwise I could just continue building prototypes in V0 or Bolt)*. Once the scaffolding exists, it applies to everything that comes after. 
 
