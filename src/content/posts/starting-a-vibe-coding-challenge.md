@@ -27,15 +27,15 @@ His take on imposter syndrome for non-technical builders was more than just enco
 
 That's ground a good PM already knows well. You spend your career translating ambiguous user problems into specific, testable solutions and holding them accountable to outcomes. The skill transfers.
 
-So if you have good product taste and domain knowledge, you're actually better positioned than you think, and there's research backing it up. Anthropic's [Claude Code expertise report](https://www.anthropic.com/research/claude-code-expertise) found that in vibe coding sessions, success was determined more by how well someone understands the problem they're solving than by whether they have a coding background. Domain experts succeed at nearly the same rate as software engineers. The quote that stuck with me:
+So if you have good product taste and domain knowledge, you're actually better positioned than you think, and there's research backing it up. An Anthropic [research report](https://www.anthropic.com/research/claude-code-expertise) found that in vibe coding sessions, success was determined more by how well someone understands the problem they're solving than by whether they have a coding background. Domain experts succeed at nearly the same rate as software engineers. The quote that stuck with me:
 
 > "These findings give us an early read on possible transitions in the labor market. In our data, success is determined by how well a person understands the problem they are trying to solve, not whether they're trained in coding.
-> ....The greater domain expertise a person brings to a session... domain experts succeed at nearly the same rate as software engineers. "
+> ...The greater domain expertise a person brings to a session... domain experts succeed at nearly the same rate as software engineers. "
 > — [Anthropic Research Report - Agentic coding and persistent returns to expertise](https://www.anthropic.com/research/claude-code-expertise)
 
-Jake also made a second point that I felt was particularly important my product peer group: what separates PMs in a crowded market isn't just the resume anymore. Your portfolio matters more than any individual artifact, and having projects to show on your GitHub can go a long way. 
+Jake also made a second point that I felt was particularly important for my product peer group: what separates PMs in a crowded market isn't just the resume anymore. Your portfolio matters more than any individual artifact, and having projects to show on your GitHub can go a long way. 
 
-## How I'm going into this...
+## How I'm going into this
 
 I want to cross the threshold from *aspiring* to *semi-competent builder*. Not just empowering builders — actually being one of them, at least at a level that's genuinely useful. And what does that mean? It doesn't mean writing production code myself. It means being able to take an idea from concept to something working and deployed, independently. To verify that what got built is what I asked for. To iterate without needing a handoff every time something needs to change. That's the threshold I'm trying to cross.
 
@@ -43,9 +43,9 @@ The products I ship during this challenge might be disposable. Short-lived proof
 
 There is a real cost to this that's worth flagging — tooling, subscriptions, time. Not everyone is positioned to take this bet. But for any PM who's been considering a bootcamp or post-grad course to get more technical: I'd argue that you could go further budgeting for a Claude or Codex subscription and shipping disposable things yourself. It won't teach you everything — good strategy, taste, and writing are different muscles — but technical fluency in a world of coding agents is increasingly learnable by doing.
 
-### ....And overcoming the "daunting" technical challenges 
+### And overcoming the "daunting" technical challenges 
 
-The challenge here isn't just prompting, which is learnable in an afternoon. Its around the surrounding technical structure — which is two fold, and especially daunting for non-technical builders:
+The challenge here isn't just prompting, which is learnable in an afternoon. It's around the surrounding technical structure — which is twofold, and especially daunting for non-technical builders:
 
 1) Figuring out my SDLC setup i.e. your local dev environment, git and CI/CD workflows;
 2) And making sure I can trust the code that I cannot directly verify myself
