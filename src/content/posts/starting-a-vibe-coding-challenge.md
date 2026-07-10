@@ -43,7 +43,7 @@ The products I ship during this challenge might be disposable. Short-lived proof
 
 There is a real cost to this that's worth flagging — tooling, subscriptions, time. Not everyone is positioned to take this bet. But for any PM who's been considering a bootcamp or post-grad course to get more technical: I'd argue that you could go further budgeting for a Claude or Codex subscription and shipping a few things yourself. It won't teach you everything — good strategy, taste, and writing are different muscles — but technical fluency in a world of coding agents is increasingly learnable by doing.
 
-### And overcoming the "daunting" technical challenges 
+## And overcoming the "daunting" technical challenges 
 
 The challenge here isn't just prompting, which is learnable in an afternoon. It's around the surrounding technical structure — which is twofold, and especially daunting for non-technical builders:
 
