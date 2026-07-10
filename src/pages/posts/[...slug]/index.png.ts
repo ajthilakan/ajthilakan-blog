@@ -27,7 +27,7 @@ export const GET: APIRoute = async ({ props, url }) => {
     return new Response(null, { status: 404, statusText: "Not found" });
   }
 
-  const fonts = fontData["--font-google-sans-code"];
+  const fonts = fontData["--font-figtree"];
   const regularFontPath = getFontPathByWeight(fonts, 400);
   const boldFontPath = getFontPathByWeight(fonts, 700);
 
@@ -49,7 +49,7 @@ export const GET: APIRoute = async ({ props, url }) => {
       type: "div",
       props: {
         style: {
-          background: "#fefbfb",
+          background: "#f8f4ec",
           width: "100%",
           height: "100%",
           display: "flex",
@@ -65,7 +65,7 @@ export const GET: APIRoute = async ({ props, url }) => {
                 top: "-1px",
                 right: "-1px",
                 border: "4px solid #000",
-                background: "#ecebeb",
+                background: "#eae2d5",
                 opacity: "0.9",
                 borderRadius: "4px",
                 display: "flex",
@@ -81,7 +81,7 @@ export const GET: APIRoute = async ({ props, url }) => {
             props: {
               style: {
                 border: "4px solid #000",
-                background: "#fefbfb",
+                background: "#f8f4ec",
                 borderRadius: "4px",
                 display: "flex",
                 justifyContent: "center",
@@ -173,13 +173,13 @@ export const GET: APIRoute = async ({ props, url }) => {
       embedFont: true,
       fonts: [
         {
-          name: "Google Sans Code",
+          name: "Figtree",
           data: regularData,
           weight: 400,
           style: "normal",
         },
         {
-          name: "Google Sans Code",
+          name: "Figtree",
           data: boldData,
           weight: 700,
           style: "normal",
