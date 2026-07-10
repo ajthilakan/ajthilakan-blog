@@ -1,5 +1,5 @@
 ---
-title: "Starting a Vibe coding challenge – Crossing the Threshold from PM to Builder"
+title: "Starting a Vibe Coding Challenge – Crossing the Threshold from PM to Builder"
 pubDatetime: 2026-07-10T16:01:59Z
 description: "Taking on a loosely timeboxed build-and-ship challenge inspired by others — exploring what it means for a PM without a deep technical background to actually build things, what gave me the confidence to try, and what I'm optimizing for."
 tags: [vibe-coding, building, pm]
